@@ -25,6 +25,15 @@ class ViewController: UIViewController, WKUIDelegate {
         let myURL = URL(string: "https://www.youtube.com")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
+//
+//        NSString *path = [[NSBundle mainBundle] pathForResource:htmlFile ofType:@"html"];
+//        NSURL *url = [NSURL fileURLWithPath:path];
+//
+//        NSString *htmlBody = [NSString stringWithContentsOfFile:path
+//            encoding:NSUTF8StringEncoding
+//            error:nil];
+//        [self.webView loadHTMLString:htmlBody baseURL:url];
+        
     }
     
 }
