@@ -28,5 +28,8 @@ class ViewController: UIViewController, WKUIDelegate {
         webView.load(myRequest)
     }
     
+    @IBAction func closeTouched(_ sender: Any) {
+        self.navigationController?.dismiss(animated: true, completion: nil)
+    }
 }
 
